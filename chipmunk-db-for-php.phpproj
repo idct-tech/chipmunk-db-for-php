@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>chipmunk-db-for-php</Name>
+    <ProjectGuid>{18446a66-0ca9-4ac2-899d-dc9146211099}</ProjectGuid>
+    <RootNamespace>chipmunk-db-for-php</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".git\hooks\applypatch-msg.sample" />
+    <Compile Include=".git\hooks\commit-msg.sample" />
+    <Compile Include=".git\hooks\post-update.sample" />
+    <Compile Include=".git\hooks\pre-applypatch.sample" />
+    <Compile Include=".git\hooks\pre-commit.sample" />
+    <Compile Include=".git\hooks\pre-push.sample" />
+    <Compile Include=".git\hooks\pre-rebase.sample" />
+    <Compile Include=".git\hooks\prepare-commit-msg.sample" />
+    <Compile Include=".git\hooks\update.sample" />
+    <Compile Include=".git\info\exclude" />
+    <Compile Include=".git\logs\refs\heads\master" />
+    <Compile Include=".git\logs\refs\remotes\origin\HEAD" />
+    <Compile Include=".git\logs\HEAD" />
+    <Compile Include=".git\objects\pack\pack-99d61ddd4f554031c07cb29f8f19a7de3fe04b1b.idx" />
+    <Compile Include=".git\objects\pack\pack-99d61ddd4f554031c07cb29f8f19a7de3fe04b1b.pack" />
+    <Compile Include=".git\refs\heads\master" />
+    <Compile Include=".git\refs\remotes\origin\HEAD" />
+    <Compile Include=".git\config" />
+    <Compile Include=".git\description" />
+    <Compile Include=".git\HEAD" />
+    <Compile Include=".git\index" />
+    <Compile Include=".git\packed-refs" />
+    <Compile Include="composer.json" />
+    <Compile Include="src\chipmunk.php" />
+    <Compile Include="src\searchParameter.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\hooks" />
+    <Folder Include=".git\info" />
+    <Folder Include=".git\logs\refs\heads" />
+    <Folder Include=".git\logs\refs\remotes\origin" />
+    <Folder Include=".git\logs\refs\remotes" />
+    <Folder Include=".git\logs\refs" />
+    <Folder Include=".git\logs" />
+    <Folder Include=".git\objects\info" />
+    <Folder Include=".git\objects\pack" />
+    <Folder Include=".git\objects" />
+    <Folder Include=".git\refs\heads" />
+    <Folder Include=".git\refs\remotes\origin" />
+    <Folder Include=".git\refs\remotes" />
+    <Folder Include=".git\refs\tags" />
+    <Folder Include=".git\refs" />
+    <Folder Include=".git" />
+    <Folder Include="src" />
+  </ItemGroup>
+</Project>
