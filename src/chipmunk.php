@@ -24,7 +24,7 @@ namespace IDCT\Db\Chipmunk;
 * OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-class chipmunk {
+class Connector {
 
     protected $buf = 1024;
 

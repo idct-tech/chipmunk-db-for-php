@@ -24,7 +24,7 @@ namespace IDCT\Db\Chipmunk;
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-class searchParameter {
+class SearchParameter {
 
     /**
      * value expected (or not: depending on the condition) in the metadata for the given key.
